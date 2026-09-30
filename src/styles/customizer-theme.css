@@ -405,9 +405,15 @@ select option {
   z-index: 10 !important;
   max-width: 52rem !important;
   margin: 0 auto !important;
-  padding: 0 !important;
+  padding: 52px 20px 40px !important; /* DIRECT 52px breathing gap between navbar and this text */
   text-align: center !important;
-  width: 100%;
+  width: 100% !important;
+  height: auto !important;
+  min-height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
 }
 
 .hero__content * {
