@@ -1,0 +1,106 @@
+/* ============================================================
+   OMNI COMMERCE — Modern Dynamic Design Tokens
+   Supports multi-store presets, dynamic accent palettes & dark luxury
+   ============================================================ */
+:root {
+  /* Dynamic Primary & Background Tokens */
+  --primary: #ffffff;
+  --on-primary: #0b0c0e;
+  --primary-container: #1e2128;
+  --on-primary-container: #ede3d5;
+
+  /* Dynamic Accent Color (injected and modulated via StoreCustomizer) */
+  --secondary: #d4af37;
+  --secondary-text: #d4af37;
+  --secondary-hover: #e5be48;
+  --secondary-glow: rgba(212, 175, 55, 0.38);
+  --secondary-fixed: #d4af37;
+  --gold-gradient: linear-gradient(135deg, #fce5a3 0%, #d4af37 50%, #99741a 100%);
+  --gold-gradient-soft: linear-gradient(135deg, rgba(252, 229, 163, 0.15) 0%, rgba(212, 175, 55, 0.15) 100%);
+
+  /* Neutral Surfaces */
+  --background: #0b0c0e;
+  --on-background: #f8fafc;
+  --surface: #121418;
+  --on-surface: #f1f5f9;
+  --surface-dim: #0a0b0d;
+  --surface-bright: #1e2128;
+  --surface-container-lowest: #070809;
+  --surface-container-low: #15181f;
+  --surface-container: #1b1e26;
+  --surface-container-high: #242833;
+  --surface-container-highest: #2e3341;
+  --surface-variant: #1e222b;
+  --on-surface-variant: #cbd5e1;
+  --text-muted: #94a3b8;
+  --outline: #334155;
+  --outline-variant: rgba(255, 255, 255, 0.1);
+
+  /* Glassmorphism & Visual Polish */
+  --glass-bg: rgba(15, 17, 22, 0.88);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-blur: blur(20px);
+  --glass-card: rgba(255, 255, 255, 0.04);
+  --glass-card-border: rgba(255, 255, 255, 0.08);
+
+  /* Elevation Shadows */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.5);
+  --shadow-3d: 0 20px 40px -15px rgba(0, 0, 0, 0.6), 0 0 1px 1px rgba(255, 255, 255, 0.1);
+  --shadow-gold: 0 8px 30px var(--secondary-glow);
+
+  /* Spacing Scale */
+  --space-base: 4px;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 32px;
+  --space-lg: 64px;
+  --space-xl: 128px;
+  --gutter: 28px;
+  --margin-mobile: 20px;
+  --margin-desktop: 64px;
+
+  /* Radii */
+  --radius: 0.5rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.75rem;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-body: 'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-heritage: 'Outfit', 'Cinzel', serif;
+  --font-mono: 'Space Grotesk', monospace;
+
+  /* Page Horizontal Margin (responsive) */
+  --page-x: var(--margin-mobile);
+
+  /* Topbar Height single source of truth */
+  --marquee-h: 36px;
+  --header-h: 70px;
+  --topbar-h: 116px;
+
+  /* Stacking Order */
+  --z-content: 1;
+  --z-float: 40;
+  --z-topbar: 60;
+  --z-nav-overlay: 75;
+  --z-nav: 80;
+  --z-search: 90;
+  --z-cart-overlay: 95;
+  --z-cart: 96;
+  --z-customizer: 98;
+  --z-modal: 100;
+  --z-toast: 120;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --page-x: var(--margin-desktop);
+    --marquee-h: 38px;
+    --header-h: 78px;
+    --topbar-h: 116px;
+  }
+}

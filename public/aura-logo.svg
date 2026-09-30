@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 56" width="260" height="56" fill="none">
+  <defs>
+    <linearGradient id="auraGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E7C4" />
+      <stop offset="45%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA771C" />
+    </linearGradient>
+  </defs>
+  <text x="4" y="38" font-family="'Cinzel', 'Playfair Display', 'Cormorant Garamond', Georgia, serif" font-size="34" font-weight="700" letter-spacing="10" fill="url(#auraGold)">AURA</text>
+  <circle cx="178" cy="30" r="2.5" fill="#D4AF37" opacity="0.8" />
+  <text x="190" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" letter-spacing="3.5" fill="#C5BAA8">JEWELLERY</text>
+</svg>
