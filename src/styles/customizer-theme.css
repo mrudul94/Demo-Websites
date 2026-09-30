@@ -12,11 +12,11 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Fix navbar offset so the fixed topbar NEVER covers or crowds any text on ANY page */
+/* Fix navbar offset so the fixed topbar NEVER covers content */
 .site-main {
-  padding-top: calc(var(--topbar-h, 116px) + 36px) !important;
+  padding-top: var(--topbar-h, 116px) !important;
   position: relative;
-  min-height: 85vh;
+  min-height: 80vh;
 }
 
 /* Ensure all headings across the entire website are 100% crisp & visible */
@@ -369,9 +369,9 @@ select option {
 .hero {
   position: relative !important;
   margin-top: 0 !important; /* Cancel negative margin so topbar NEVER covers hero */
-  padding-top: 24px !important;
+  padding-top: 40px !important; /* Exact generous breathing gap below the navbar across all demo presets */
   padding-bottom: 72px !important;
-  min-height: calc(85vh - var(--topbar-h, 116px) - 36px) !important;
+  min-height: calc(100vh - var(--topbar-h, 116px)) !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
@@ -407,6 +407,7 @@ select option {
   margin: 0 auto !important;
   padding: 0 !important;
   text-align: center !important;
+  width: 100%;
 }
 
 .hero__content * {
@@ -416,7 +417,13 @@ select option {
 
 .hero__eyebrow-wrap {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-top: 0 !important;
+  margin-bottom: 18px !important;
+}
+
+/* Ensure clean breathing gap on all standard subpages (Shop, Product, Checkout) */
+.section--pad {
+  padding-top: 48px !important;
 }
 
 .hero__eyebrow {
