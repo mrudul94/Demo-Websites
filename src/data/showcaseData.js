@@ -12,7 +12,7 @@ export const STORE_PRESETS = {
     eyebrow: '✦ NEXT-GEN MULTI-CATEGORY STOREFRONT',
     title: 'Modern Essentials for the Discerning Lifestyle',
     sub: 'Curated collection of innovative gear, contemporary apparel, fine timepieces, and artisan lifestyle goods. Designed for seamless shopping.',
-    bgImg: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1920&q=85',
+    bgImg: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1920&q=85',
     accentColor: '#d4af37', // Gold
     accentName: 'Champagne Gold',
     themeMode: 'dark',
@@ -38,7 +38,7 @@ export const STORE_PRESETS = {
     eyebrow: '✦ CONTEMPORARY SILHOUETTES • ARCHITECTURAL CUTS',
     title: 'Minimalist Forms. Heavyweight Craft.',
     sub: 'Architectural streetwear, 450 GSM Japanese heavyweight cottons, and functional luxury outerwear engineered for modern motion.',
-    bgImg: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1920&q=85',
+    bgImg: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1920&q=85',
     accentColor: '#e07a5f', // Coral Terracotta
     accentName: 'Warm Terracotta',
     themeMode: 'dark',
@@ -51,7 +51,7 @@ export const STORE_PRESETS = {
     eyebrow: '✦ HIGH HOROLOGY • TIMELESS REFINEMENT',
     title: 'Timeless Refinement Cast in Precious Metal',
     sub: 'Swiss sapphire chronographs, 18K solid gold chains, and bespoke Italian leather accessories engineered for generations.',
-    bgImg: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1920&q=85',
+    bgImg: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1920&q=85',
     accentColor: '#c5a059', // Rich Gold
     accentName: 'Heritage Gold',
     themeMode: 'dark',
@@ -64,7 +64,7 @@ export const STORE_PRESETS = {
     eyebrow: '✦ BIO-ACTIVE BOTANICALS • CLEAN GLOW',
     title: 'Pure Botanical Nutrition for Radiant Skin',
     sub: 'Clean bioactive serums, cold-pressed botanical face elixirs, and rare artisan fragrance extractions from organic gardens.',
-    bgImg: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1920&q=85',
+    bgImg: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1920&q=85',
     accentColor: '#10b981', // Emerald Mint
     accentName: 'Botanical Emerald',
     themeMode: 'dark',
@@ -77,7 +77,7 @@ export const STORE_PRESETS = {
     eyebrow: '✦ ARCHITECTURAL OBJECTS • SCANDINAVIAN FORM',
     title: 'Sculptural Objects for the Thoughtful Home',
     sub: 'Warm minimalism, hand-cast stoneware, acoustic sound objects, and soothing ambient cordless illumination.',
-    bgImg: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=85',
+    bgImg: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=85',
     accentColor: '#f59e0b', // Amber Warmth
     accentName: 'Nordic Amber',
     themeMode: 'dark',

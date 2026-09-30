@@ -385,8 +385,8 @@ select option {
   z-index: 0 !important;
   background-size: cover;
   background-position: center;
-  opacity: 0.55;
-  filter: contrast(110%) brightness(85%);
+  opacity: 0.82 !important;
+  filter: contrast(106%) brightness(98%) !important;
   transform: scale(1.02);
   transition: background-image 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease;
 }
@@ -395,7 +395,7 @@ select option {
   position: absolute;
   inset: 0;
   z-index: 1 !important;
-  background: radial-gradient(circle at center, rgba(11, 12, 14, 0.35) 0%, rgba(11, 12, 14, 0.92) 85%);
+  background: radial-gradient(circle at center, rgba(11, 12, 14, 0.22) 0%, rgba(11, 12, 14, 0.76) 85%) !important;
   pointer-events: none;
 }
 
@@ -406,6 +406,11 @@ select option {
   margin: 0 auto !important;
   padding: 0 !important;
   text-align: center !important;
+}
+
+.hero__content * {
+  position: relative;
+  z-index: 10;
 }
 
 .hero__eyebrow-wrap {
@@ -2186,11 +2191,21 @@ select option {
 .contact-hero,
 .info-hero,
 .new-arrivals-hero {
-  padding-top: 48px !important;
-  padding-bottom: 56px !important;
-  background: #0d0f14 !important;
+  position: relative;
+  z-index: 10 !important;
+  padding-top: 56px !important;
+  padding-bottom: 64px !important;
+  background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.06) 0%, #0d0f14 80%) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
   text-align: center;
+}
+
+.about-hero *,
+.contact-hero *,
+.info-hero *,
+.new-arrivals-hero * {
+  position: relative;
+  z-index: 10;
 }
 
 .about-stats-strip {
