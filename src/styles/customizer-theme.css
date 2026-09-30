@@ -12,11 +12,11 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Fix navbar offset so the fixed topbar NEVER covers any text on any page */
+/* Fix navbar offset so the fixed topbar NEVER covers or crowds any text on ANY page */
 .site-main {
-  padding-top: var(--topbar-h, 116px) !important;
+  padding-top: calc(var(--topbar-h, 116px) + 36px) !important;
   position: relative;
-  min-height: 80vh;
+  min-height: 85vh;
 }
 
 /* Ensure all headings across the entire website are 100% crisp & visible */
@@ -365,16 +365,17 @@ select option {
   opacity: 0.8;
 }
 
-/* --- 4. Hero Section (NO OVERLAP WITH NAVBAR) --- */
+/* --- 4. Hero Section (GUARANTEED TOP GAP ACROSS ALL PRESETS & VIEWPORTS) --- */
 .hero {
   position: relative !important;
   margin-top: 0 !important; /* Cancel negative margin so topbar NEVER covers hero */
-  padding-top: 56px !important;
-  padding-bottom: 64px !important;
-  min-height: calc(85vh - var(--topbar-h, 116px)) !important;
+  padding-top: 24px !important;
+  padding-bottom: 72px !important;
+  min-height: calc(85vh - var(--topbar-h, 116px) - 36px) !important;
   display: flex !important;
+  flex-direction: column !important;
   align-items: center !important;
-  justify-content: center !important;
+  justify-content: flex-start !important; /* Content flows down from the top gap so tall titles never push the badge up */
   background: #08090b !important;
   overflow: hidden !important;
 }
