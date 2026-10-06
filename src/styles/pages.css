@@ -43,10 +43,10 @@
 /* ---------- Full-Bleed Editorial Cover Hero ---------- */
 .hero {
   position: relative;
-  height: 90vh;
-  min-height: 620px;
+  height: auto;
+  min-height: calc(100vh - var(--topbar-h, 116px));
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
   /* Full-bleed: cancel .site-main's offset so the artwork runs up behind the
      topbar, then pad the same amount back in so content clears it. */
   margin-top: calc(-1 * var(--topbar-h));
